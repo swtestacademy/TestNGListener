@@ -3,16 +3,13 @@
 <suite name="TestNG Listener Example">
     <listeners>
         <listener class-name="Listener" />
+        <listener class-name="AnnotationTransformer"/>
     </listeners>
 
     <test name="TestNG Sample Test" preserve-order="true">
         <classes>
             <class name="SampleTest">
-<!--                <methods>
-                    <include name="test1"/>
-                </methods>-->
             </class>
         </classes>
     </test>
-
 </suite>
