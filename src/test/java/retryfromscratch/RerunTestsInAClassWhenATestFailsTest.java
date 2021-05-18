@@ -1,4 +1,4 @@
-package retrydependents;
+package retryfromscratch;
 
 import static org.testng.Assert.fail;
 

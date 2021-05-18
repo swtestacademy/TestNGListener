@@ -1,4 +1,4 @@
-package retrydependents;
+package retryfromscratch;
 
 import org.testng.ISuiteListener;
 import org.testng.ITestContext;
