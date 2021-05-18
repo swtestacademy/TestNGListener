@@ -1,9 +1,8 @@
+package retrysingletest;
+
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 
-/**
- * Created by ONUR on 17.12.2016.
- */
 public class Retry implements IRetryAnalyzer {
 
     private int count = 0;
@@ -24,5 +23,4 @@ public class Retry implements IRetryAnalyzer {
         }
         return false;
     }
-
 }

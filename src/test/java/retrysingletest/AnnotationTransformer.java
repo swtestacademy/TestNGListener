@@ -1,12 +1,10 @@
-import org.testng.IAnnotationTransformer;
-import org.testng.annotations.ITestAnnotation;
+package retrysingletest;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
+import org.testng.IAnnotationTransformer;
+import org.testng.annotations.ITestAnnotation;
 
-/**
- * Created by ONUR on 17.12.2016.
- */
 public class AnnotationTransformer implements IAnnotationTransformer {
 
     @Override

@@ -1,13 +1,11 @@
+package retrysingletest;
+
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-/**
- * Created by ONUR on 11.12.2016.
- */
+
 public class Listener extends BaseTest implements ITestListener {
-
-
     @Override
     public void onTestStart(ITestResult iTestResult) {
         System.out.println("I am in onTestStart method " +  getTestMethodName(iTestResult) + " start");

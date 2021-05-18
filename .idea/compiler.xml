@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="TestNGListener" target="1.8" />
+      <module name="TestNGListener" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
